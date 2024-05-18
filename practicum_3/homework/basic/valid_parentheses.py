@@ -38,13 +38,13 @@ class Stack:
        
 
 class StackUnderflowException(BaseException):
-    '''В последовательности недостаточно открывающих скобок'''
+    pass
 
 
 
 class StackOverflowException(BaseException):
-    '''В последовательности недостаточно закрывающих скобок'''
-Ш
+    pass
+
 
 def get_starting_symbol(sym: str) -> str:
     if sym== ")":
